@@ -1,0 +1,17 @@
+var mensagemSecreta = ['Aprender', 'não', 'é', 'o', 'sobre', 'que', 'você', 'consegue', 'facilmente', 'na', 'primeira', 'vez', 'mas', 'sobre', 'o', 'que', 'você', 'pode', 'descobrir', '-2015', 'Chris', 'Pine', 'Aprenda', 'JavaScript'];
+var tirarAultimaMensagem = mensagemSecreta.pop();
+console.log(mensagemSecreta);
+var adicionarNoFinalDAMensagem = mensagemSecreta.push('a', 'programar');
+console.log(mensagemSecreta);
+var saberAposicao = mensagemSecreta.indexOf('facilmente');
+console.log(saberAposicao);
+mensagemSecreta[8] = 'certo';
+console.log(mensagemSecreta);
+var removerAprimeiroMensagem = mensagemSecreta.shift();
+var adicionarAprimeiraMensagem = mensagemSecreta.unshift('Programação');
+var saberAposicao01 = mensagemSecreta.indexOf('consegue');
+console.log(saberAposicao01);
+mensagemSecreta.splice(7,4);
+console.log(mensagemSecreta);
+mensagemSecreta[7] = 'sabe';
+console.log(mensagemSecreta.join(' '));
